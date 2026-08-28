@@ -528,7 +528,7 @@ The resulting progress information is exposed through the backend API and presen
                 ┌──────┼──────────────┐
                 │      │              │
                 ▼      ▼              ▼
-                Scores Streaks      Activity
+              Scores  Streaks      Activity
                 │      │              │
                 └──────┼──────────────┘
                         │

@@ -442,9 +442,9 @@ Login attempts form part of the broader security architecture.
                             ▼
                     Security Controls
                             │
-                    ┌─────┴─────┐
-                    │           │
-                 Continue     Lockout
+                      ┌─────┴─────┐
+                      │           │
+                    Continue     Lockout
                 
 
 ---

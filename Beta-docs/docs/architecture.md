@@ -54,11 +54,9 @@ content, assessments, and opportunities through intelligent personalization.
 26. [Production Request Lifecycle](#26-production-request-lifecycle)
 27. [Error Handling and Troubleshooting](#27-error-handling-and-troubleshooting)
 28. [From Development to Final Product](#28-from-development-to-final-product)
-29. [Final Platform Architecture](#29-final-platform-architecture)
-30. [Architecture Summary](#30-architecture-summary)
-31. [Architecture Principles](#31-architecture-principles)
-32. [Final Architecture Statement](#32-final-architecture-statement)
-33. [Architecture Assets](#33-architecture-assets)
+29. [Architecture Summary](#30-architecture-summary)
+30. [Architecture Principles](#31-architecture-principles)
+31. [Final Architecture Statement](#32-final-architecture-statement)
 
 ---
 
