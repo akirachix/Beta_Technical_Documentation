@@ -1,0 +1,77 @@
+site_name: Vuka Technical Documentation
+site_url: https://Vuka.vercel.app/
+
+theme:
+  name: material
+
+  logo: images/logo.png
+  favicon: images/logo.png
+
+  palette:
+    - scheme: default
+      primary: white
+      accent: black
+      toggle:
+        icon: octicons/moon-16
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: black
+      accent: white
+      toggle:
+        icon: octicons/sun-16
+        name: Switch to light mode
+
+  font:
+    text: Poppins
+    code: Fira Mono
+
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+
+    - navigation.instant
+
+    - search.highlight
+    - search.suggest
+    - search.share
+
+    - toc.integrate
+
+    
+    - content.code.copy
+    - content.code.annotate
+
+extra_css:
+  - styles/extra.css
+  - styles/backend.css
+
+nav:
+
+  - Overview:
+      - Introduction: index.md
+
+ 
+  - Product:
+      - Architecture: architecture.md
+      - Security: security.md
+
+ 
+  - Platform:
+      - Frontend Mobile: frontend-mobile.md
+      - Frontend Web: frontend-web.md
+      - Backend: backend.md
+
+
+  - Quality & Testing:
+      - QA Process: QA.md
+
+  - Deployment:
+      - Deployment: deployment.md
+      - Guide: guide.md
+
+markdown_extensions:
+  - pymdownx.tasklist:
+      custom_checkbox: true
