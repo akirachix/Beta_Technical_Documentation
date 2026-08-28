@@ -329,9 +329,7 @@ available to each learner.
     Get Started
   </a>
 
-  <a href="/architecture.md" class="md-button">
-    Explore the Architecture
-  </a>
+
 
 </div>
 
