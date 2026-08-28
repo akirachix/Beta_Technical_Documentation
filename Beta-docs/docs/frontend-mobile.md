@@ -98,12 +98,14 @@ The Settings section provides users with access to application and account-relat
 
 ## Getting Started
 Before running the Vuka Mobile Application, make sure you have the following installed: 
+
 - Flutter SDK
 - Dart SDK
 - Git
 - Android Studio 
 - An Android emulator or iOS simulator. 
 You can verify your Flutter installation by running: 
+
 flutter doctor
 
 **Installation**

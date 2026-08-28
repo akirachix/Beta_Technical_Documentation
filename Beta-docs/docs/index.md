@@ -5,6 +5,7 @@
   <div class="carousel-slide active">
     <img src="images/logo2.png" alt="Vuka Logo" class="logo">
     <h2>Discover. Learn. Unlock.</h2>
+
     <p>
       An AI-powered learning and career development platform helping
       high school graduates in Kenya turn social media into purposeful learning.
@@ -42,6 +43,16 @@
 
 </div>
 
+<div class="button-container">
+  <a href="https://beta-informational-website.vercel.app/" class="md-button">
+    Visit Vuka
+  </a>
+
+  <a href="getting-started/" class="md-button">
+    Get Started
+  </a>
+</div>
+
 
 ---
 
@@ -58,6 +69,9 @@
 ## Our Vision
 
 <div class="mission-banner">
+
+  <strong>Our Vision:</strong>
+
   <em>
     A future where every high school graduate in Kenya can transform the
     digital platforms they already use into pathways for learning,
@@ -70,6 +84,8 @@
 ## Our Mission
 
 <div class="mission-banner">
+  <strong>Our Mission:</strong>
+
   <em>
     To bridge the gap between passive social-media consumption and
     purposeful learning by using AI to connect young people with
@@ -231,6 +247,7 @@
 </div>
 
 
+
 ---
 
 
@@ -329,14 +346,11 @@ available to each learner.
     Get Started
   </a>
 
-  <a href="architecture.md/" class="md-button">
-    Explore the Architecture
-  </a>
+
 
 </div>
 
 ---
-
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {

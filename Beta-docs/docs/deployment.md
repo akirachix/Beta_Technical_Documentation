@@ -274,18 +274,6 @@ The database contains information associated with:
 * Watched content
 * Opportunities
 
-The production database information should be completed below.
-
-| Configuration     | Value      |
-| ----------------- | ---------- |
-| Database Engine   | `[INSERT]` |
-| Database Provider | `[INSERT]` |
-| Production Host   | `[INSERT]` |
-| Database Name     | `[INSERT]` |
-| Connection Method | `[INSERT]` |
-| Backup Strategy   | `[INSERT]` |
-
-
 ---
 
 ## Source Code and Version Control
@@ -410,10 +398,8 @@ The production URLs for the Vuka platform should be documented in one location.
 
 | Application           | Production URL                                 |
 | --------------------- | ---------------------------------------------- |
-| Informational Website | https://beta-informational-website.vercel.app/ |
-| Dashboard             | `[VERCEL DASHBOARD URL]`                |
+| Informational Website | `https://beta-informational-website.` |
 | Backend API           | `https://vuka-cfc05218f5fb.herokuapp.com/docs`                  |
-| API Documentation     | `[INSERT API DOCUMENTATION URL]`               |
 
 
 ---

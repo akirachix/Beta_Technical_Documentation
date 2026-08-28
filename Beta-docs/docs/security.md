@@ -442,9 +442,9 @@ Login attempts form part of the broader security architecture.
                             ▼
                     Security Controls
                             │
-                    ┌─────┴─────┐
-                    │           │
-                 Continue     Lockout
+                      ┌─────┴─────┐
+                      │           │
+                    Continue     Lockout
                 
 
 ---
@@ -489,11 +489,7 @@ Security is not implemented as a single isolated component.
 Instead, it is distributed throughout the VUKA architecture.
 <div class="feature-card">
 <img src="../images/security.png" alt="Vuka Home Dashboard" >
-
-
-
 </div>
----
 
 #  Core Security Principles
 
