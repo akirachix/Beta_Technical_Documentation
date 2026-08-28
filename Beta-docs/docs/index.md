@@ -4,7 +4,7 @@
 
   <div class="carousel-slide active">
     <img src="images/logo2.png" alt="Vuka Logo" class="logo">
-    <h2>Discover. Learn. Grow.</h2>
+    <h2>Discover. Learn. Unlock.</h2>
     <p>
       An AI-powered learning and career development platform helping
       high school graduates in Kenya turn social media into purposeful learning.
@@ -42,15 +42,6 @@
 
 </div>
 
-<div class="button-container">
-  <a href="https://beta-informational-website.vercel.app/" class="md-button">
-    Visit Vuka
-  </a>
-
-  <a href="getting-started/" class="md-button">
-    Get Started
-  </a>
-</div>
 
 ---
 
@@ -67,7 +58,6 @@
 ## Our Vision
 
 <div class="mission-banner">
-  <strong>Our Vision:</strong>
   <em>
     A future where every high school graduate in Kenya can transform the
     digital platforms they already use into pathways for learning,
@@ -80,7 +70,6 @@
 ## Our Mission
 
 <div class="mission-banner">
-  <strong>Our Mission:</strong>
   <em>
     To bridge the gap between passive social-media consumption and
     purposeful learning by using AI to connect young people with
@@ -241,15 +230,6 @@
   </p>
 </div>
 
-<div style="text-align: center; margin: 2em 0;">
-
-  <span class="feature-tag">Career Paths</span>
-  <span class="feature-tag">Technical Skills</span>
-  <span class="feature-tag">Educational Content</span>
-  <span class="feature-tag">Scholarships</span>
-  <span class="feature-tag">Bootcamps</span>
-
-</div>
 
 ---
 
@@ -357,8 +337,6 @@ available to each learner.
 
 ---
 
-> _Learn more about Vuka on our [Website](https://beta-informational-website.vercel.app)._  
-> _Ready to understand how Vuka works? [Start here](getting-started.md)!_
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {

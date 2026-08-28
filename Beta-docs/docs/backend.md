@@ -855,182 +855,24 @@ Connects users with relevant career-development opportunities.
 
 </div>
 
----
 
-# 🔗 Backend Module Relationships
 
-The major backend modules work together to create the VUKA learning experience.
-
-```text
-                         ┌───────────────┐
-                         │     USER      │
-                         └───────┬───────┘
-                                 │
-                                 ▼
-                         ┌───────────────┐
-                         │ AUTHENTICATION │
-                         └───────┬───────┘
-                                 │
-                                 ▼
-                         ┌───────────────┐
-                         │   ONBOARDING  │
-                         └───────┬───────┘
-                                 │
-                    ┌────────────┴────────────┐
-                    │                         │
-                    ▼                         ▼
-             ┌──────────────┐         ┌────────────────┐
-             │   CONTENT    │         │ OPPORTUNITIES  │
-             └──────┬───────┘         └───────┬────────┘
-                    │                         │
-                    ▼                         │
-             ┌──────────────┐                 │
-             │   CONTENT    │                 │
-             │   PATHWAYS   │                 │
-             └──────┬───────┘                 │
-                    │                         │
-                    ▼                         │
-             ┌──────────────┐                 │
-             │ ASSESSMENTS  │◄────────────────┘
-             │   GEMINI AI  │
-             └──────┬───────┘
-                    │
-                    ▼
-             ┌──────────────┐
-             │   PROGRESS   │
-             │   TRACKING   │
-             └──────┬───────┘
-                    │
-                    ▼
-             ┌──────────────┐
-             │  DASHBOARD   │
-             └──────────────┘
-```
 
 ---
 
-# 🛡️ Security Architecture
-
-Security is integrated throughout the backend rather than being isolated to a single feature.
-
-The security components include:
-
-* JWT authentication
-* Refresh tokens
-* Password security
-* Multi-factor authentication
-* Account lockout
-* Login-attempt tracking
-* Audit logging
-* Security event tracking
-* Role-based access
-* Permission management
-* Cryptographic utilities
-
-The dedicated security modules include:
-
-```text
-security/
-├── audit.py
-├── crypto.py
-└── password.py
-```
-
----
-
-# 📦 Backend Technology Stack
-
-<div class="tech-stack">
-
-| Technology               | Role                            |
-| ------------------------ | ------------------------------- |
-| **Python**               | Backend programming language    |
-| **FastAPI**              | REST API framework              |
-| **PostgreSQL**           | Relational database             |
-| **SQLAlchemy**           | Database ORM                    |
-| **Pydantic**             | Request and response validation |
-| **Google Gemini**        | AI assessment generation        |
-| **YouTube Data API**     | Educational content discovery   |
-| **Google Serper**        | Web and opportunity discovery   |
-| **Open Trivia Database** | Quiz content                    |
-| **SMTP**                 | Email notifications             |
-| **JWT**                  | Authentication tokens           |
-
-</div>
-
----
-
-# 🔄 End-to-End Backend Flow
+#  End-to-End Backend Flow
 
 The complete VUKA backend workflow can be summarized as:
 
-```text
-┌─────────────────────────────┐
-│           USER              │
-└──────────────┬──────────────┘
-               │
-               ▼
-┌─────────────────────────────┐
-│       REGISTRATION          │
-│       + AUTHENTICATION      │
-└──────────────┬──────────────┘
-               │
-               ▼
-┌─────────────────────────────┐
-│         ONBOARDING          │
-│                             │
-│ Interests                   │
-│ Goals                       │
-│ Career Aspirations          │
-│ Social Platforms            │
-└──────────────┬──────────────┘
-               │
-               ▼
-┌─────────────────────────────┐
-│      PERSONALIZATION        │
-└──────────────┬──────────────┘
-               │
-       ┌───────┴────────┐
-       │                │
-       ▼                ▼
-┌─────────────┐  ┌─────────────────┐
-│   CONTENT   │  │  OPPORTUNITIES  │
-│ DISCOVERY   │  │  RECOMMENDATION │
-└──────┬──────┘  └─────────────────┘
-       │
-       ▼
-┌─────────────────────────────┐
-│      CONTENT PATHWAY        │
-└──────────────┬──────────────┘
-               │
-               ▼
-┌─────────────────────────────┐
-│     GOOGLE GEMINI AI        │
-│                             │
-│    Assessment Generation    │
-└──────────────┬──────────────┘
-               │
-               ▼
-┌─────────────────────────────┐
-│      USER LEARNING          │
-└──────────────┬──────────────┘
-               │
-               ▼
-┌─────────────────────────────┐
-│      PROGRESS TRACKING      │
-└──────────────┬──────────────┘
-               │
-               ▼
-┌─────────────────────────────┐
-│          DASHBOARD          │
-└─────────────────────────────┘
-```
+<div class="feature-card">
+<img src="../images/dataflow.png" alt="Vuka Home Dashboard" >
+</div>
 
 ---
 
 <div class="final-callout">
 
-<h2>🚀 The VUKA Backend</h2>
+<h2> The VUKA Backend</h2>
 
 <p>
 The VUKA backend provides the intelligence and application infrastructure behind the platform. It connects authentication, onboarding, personalized learning, AI-generated assessments, progress tracking, career opportunities, verification, databases, and external services into a single coordinated system.
