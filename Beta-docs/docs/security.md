@@ -487,6 +487,7 @@ Audit information can provide visibility into important system activities and su
 Security is not implemented as a single isolated component.
 
 Instead, it is distributed throughout the VUKA architecture.
+<<<<<<< HEAD
 
                        VUKA APPLICATION
                               │
@@ -521,6 +522,14 @@ Instead, it is distributed throughout the VUKA architecture.
                        Audit & Security
                            Events
 
+=======
+<div class="feature-card">
+<img src="../images/security.png" alt="Vuka Home Dashboard" >
+
+
+
+</div>
+>>>>>>> 4b87e283949b05cf400d7f83cceb78e7aa357aab
 ---
 
 #  Core Security Principles

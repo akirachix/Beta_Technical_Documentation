@@ -4,7 +4,11 @@
 
   <div class="carousel-slide active">
     <img src="images/logo2.png" alt="Vuka Logo" class="logo">
+<<<<<<< HEAD
     <h2>Discover. Learn. Grow.</h2>
+=======
+    <h2>Discover. Learn. Unlock.</h2>
+>>>>>>> 4b87e283949b05cf400d7f83cceb78e7aa357aab
     <p>
       An AI-powered learning and career development platform helping
       high school graduates in Kenya turn social media into purposeful learning.
@@ -42,6 +46,7 @@
 
 </div>
 
+<<<<<<< HEAD
 <div class="button-container">
   <a href="https://beta-informational-website.vercel.app/" class="md-button">
     Visit Vuka
@@ -51,6 +56,8 @@
     Get Started
   </a>
 </div>
+=======
+>>>>>>> 4b87e283949b05cf400d7f83cceb78e7aa357aab
 
 ---
 
@@ -67,7 +74,10 @@
 ## Our Vision
 
 <div class="mission-banner">
+<<<<<<< HEAD
   <strong>Our Vision:</strong>
+=======
+>>>>>>> 4b87e283949b05cf400d7f83cceb78e7aa357aab
   <em>
     A future where every high school graduate in Kenya can transform the
     digital platforms they already use into pathways for learning,
@@ -80,7 +90,10 @@
 ## Our Mission
 
 <div class="mission-banner">
+<<<<<<< HEAD
   <strong>Our Mission:</strong>
+=======
+>>>>>>> 4b87e283949b05cf400d7f83cceb78e7aa357aab
   <em>
     To bridge the gap between passive social-media consumption and
     purposeful learning by using AI to connect young people with
@@ -241,6 +254,7 @@
   </p>
 </div>
 
+<<<<<<< HEAD
 <div style="text-align: center; margin: 2em 0;">
 
   <span class="feature-tag">Career Paths</span>
@@ -250,6 +264,8 @@
   <span class="feature-tag">Bootcamps</span>
 
 </div>
+=======
+>>>>>>> 4b87e283949b05cf400d7f83cceb78e7aa357aab
 
 ---
 
@@ -357,8 +373,11 @@ available to each learner.
 
 ---
 
+<<<<<<< HEAD
 > _Learn more about Vuka on our [Website](https://beta-informational-website.vercel.app)._  
 > _Ready to understand how Vuka works? [Start here](getting-started.md)!_
+=======
+>>>>>>> 4b87e283949b05cf400d7f83cceb78e7aa357aab
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {

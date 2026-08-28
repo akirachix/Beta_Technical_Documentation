@@ -33,7 +33,11 @@ Assessment activity contributes to the user's overall assessment performance and
 
 
 <div class="feature-card">
+<<<<<<< HEAD
 <img src="../images/assessmentmobile.png" alt="Vuka Home Dashboard" >
+=======
+<img src="../images/assessmetmobile.png" alt="Vuka Home Dashboard" >
+>>>>>>> 4b87e283949b05cf400d7f83cceb78e7aa357aab
 </div>
 
 - **Progress** <br>
@@ -97,13 +101,22 @@ The Settings section provides users with access to application and account-relat
         └── pubspec.yaml                
 
 ## Getting Started
+<<<<<<< HEAD
 Before running the Vuka Mobile Application, make sure you have the following installed: <br>
+=======
+Before running the Vuka Mobile Application, make sure you have the following installed: 
+>>>>>>> 4b87e283949b05cf400d7f83cceb78e7aa357aab
 - Flutter SDK
 - Dart SDK
 - Git
 - Android Studio 
+<<<<<<< HEAD
 - An Android emulator or iOS simulator. <br>
 You can verify your Flutter installation by running: <br>
+=======
+- An Android emulator or iOS simulator. 
+You can verify your Flutter installation by running: 
+>>>>>>> 4b87e283949b05cf400d7f83cceb78e7aa357aab
 flutter doctor
 
 **Installation**

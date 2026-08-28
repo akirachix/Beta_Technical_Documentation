@@ -855,6 +855,7 @@ Connects users with relevant career-development opportunities.
 
 </div>
 
+<<<<<<< HEAD
 ---
 
 # 🔗 Backend Module Relationships
@@ -1025,12 +1026,30 @@ The complete VUKA backend workflow can be summarized as:
 │          DASHBOARD          │
 └─────────────────────────────┘
 ```
+=======
+
+
+
+---
+
+#  End-to-End Backend Flow
+
+The complete VUKA backend workflow can be summarized as:
+
+<div class="feature-card">
+<img src="../images/dataflow.png" alt="Vuka Home Dashboard" >
+</div>
+>>>>>>> 4b87e283949b05cf400d7f83cceb78e7aa357aab
 
 ---
 
 <div class="final-callout">
 
+<<<<<<< HEAD
 <h2>🚀 The VUKA Backend</h2>
+=======
+<h2> The VUKA Backend</h2>
+>>>>>>> 4b87e283949b05cf400d7f83cceb78e7aa357aab
 
 <p>
 The VUKA backend provides the intelligence and application infrastructure behind the platform. It connects authentication, onboarding, personalized learning, AI-generated assessments, progress tracking, career opportunities, verification, databases, and external services into a single coordinated system.
