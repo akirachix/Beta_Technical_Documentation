@@ -61,7 +61,6 @@ nav:
  
   - Product:
       - Architecture: architecture.md
-
       - Security: security.md
 
  
@@ -76,7 +75,6 @@ nav:
 
   - Deployment:
       - Deployment: deployment.md
-
       - Guide: guide.md
 
 
