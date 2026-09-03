@@ -47,6 +47,11 @@ theme:
 extra_css:
   - styles/extra.css
   - styles/backend.css
+  - styles/architecture.css
+  - styles/deployment.css
+  - styles/dashboard.css
+  - styles/guide.css
+  - styles/qa.css
 
 nav:
 
