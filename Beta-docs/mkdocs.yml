@@ -56,10 +56,7 @@ nav:
  
   - Product:
       - Architecture: architecture.md
-<<<<<<< HEAD
       - AI: ai.md
-=======
->>>>>>> 4b87e283949b05cf400d7f83cceb78e7aa357aab
       - Security: security.md
 
  
@@ -74,10 +71,8 @@ nav:
 
   - Deployment:
       - Deployment: deployment.md
-<<<<<<< HEAD
-=======
       - Guide: guide.md
->>>>>>> 4b87e283949b05cf400d7f83cceb78e7aa357aab
+
 
 markdown_extensions:
   - pymdownx.tasklist:

@@ -4,7 +4,7 @@ The mobile implementation of Vuka, allows the users to access the platform from 
 ## Features
 The Vuka Mobile Application provides a structured mobile experience that helps users engage with learning, skills development, assessments, progress tracking, and opportunities.
 
-- **Home** <br>
+ **Home** <br>
 The Home section provides users with an overview of their Vuka experience. <br>
 It includes:
   Assessment performance and completed assessments.
@@ -18,7 +18,7 @@ It includes:
 </div>
 
 
-- **Missions** <br>
+ **Missions** <br>
 The Missions section provides users with and learning content designed to support skill development and continued engagement with the Vuka platform.
 
 
@@ -27,20 +27,16 @@ The Missions section provides users with and learning content designed to suppor
 </div>
 
 
-- **Assessments** <br>
+ **Assessments** <br>
 The Assessments section allows users to access and complete assessments as part of validating learning from the missions.
 Assessment activity contributes to the user's overall assessment performance and helps track completed assessments.
 
 
 <div class="feature-card">
-<<<<<<< HEAD
 <img src="../images/assessmentmobile.png" alt="Vuka Home Dashboard" >
-=======
-<img src="../images/assessmetmobile.png" alt="Vuka Home Dashboard" >
->>>>>>> 4b87e283949b05cf400d7f83cceb78e7aa357aab
 </div>
 
-- **Progress** <br>
+ **Progress** <br>
 The Progress section allows users to monitor their scores from the assessments done and enables them to unlock opportunities.
 
 
@@ -48,7 +44,7 @@ The Progress section allows users to monitor their scores from the assessments d
 <img src="../images/progressmobile.png" alt="Vuka Home Dashboard" >
 </div>
 
-- **Opportunities** <br>
+ **Opportunities** <br>
 The Opportunities section connects users with relevant opportunities that can support their transition from learning and skills development toward real-world advancement.
 
 
@@ -56,7 +52,7 @@ The Opportunities section connects users with relevant opportunities that can su
 <img src="../images/opportunitiesmobile.png" alt="Vuka Home Dashboard" >
 </div>
 
-- **Settings** <br>
+ **Settings** <br>
 The Settings section provides users with access to application and account-related settings.
 
 
@@ -101,22 +97,16 @@ The Settings section provides users with access to application and account-relat
         └── pubspec.yaml                
 
 ## Getting Started
-<<<<<<< HEAD
 Before running the Vuka Mobile Application, make sure you have the following installed: <br>
-=======
-Before running the Vuka Mobile Application, make sure you have the following installed: 
->>>>>>> 4b87e283949b05cf400d7f83cceb78e7aa357aab
+
 - Flutter SDK
 - Dart SDK
 - Git
 - Android Studio 
-<<<<<<< HEAD
-- An Android emulator or iOS simulator. <br>
-You can verify your Flutter installation by running: <br>
-=======
+
 - An Android emulator or iOS simulator. 
 You can verify your Flutter installation by running: 
->>>>>>> 4b87e283949b05cf400d7f83cceb78e7aa357aab
+
 flutter doctor
 
 **Installation**

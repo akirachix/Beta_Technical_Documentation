@@ -1,4 +1,4 @@
-#  Security
+# Security
 
 <div class="page-hero">
 
@@ -22,7 +22,7 @@ Security is built into the VUKA platform to protect user accounts, application d
 
 ---
 
-##  Security Overview
+## Security Overview
 
 Security is an important part of the VUKA platform.
 
@@ -98,22 +98,22 @@ Production credentials and sensitive configuration should be managed through sec
 
 ---
 
-#  Authentication Security
+# Authentication Security
 
 Authentication is responsible for establishing and protecting the identity of VUKA users.
 
 The authentication system supports:
 
-* User registration
-* User login
-* JWT access tokens
-* Refresh tokens
-* Logout
-* Password reset
-* Multi-Factor Authentication
-* Account lockout
-* Login-attempt tracking
-* User profile management
+- User registration
+- User login
+- JWT access tokens
+- Refresh tokens
+- Logout
+- Password reset
+- Multi-Factor Authentication
+- Account lockout
+- Login-attempt tracking
+- User profile management
 
 The authentication flow provides multiple layers of protection around user accounts.
 
@@ -150,7 +150,7 @@ The authentication flow provides multiple layers of protection around user accou
 
 ---
 
-#  Multi-Factor Authentication
+# Multi-Factor Authentication
 
 VUKA uses **Multi-Factor Authentication (MFA)** to provide an additional layer of account protection.
 
@@ -210,7 +210,7 @@ MFA therefore provides an additional security boundary around user accounts.
 
 ---
 
-#  API Security
+# API Security
 
 Authenticated API endpoints must be protected against unauthorized access.
 
@@ -218,14 +218,14 @@ The backend uses authentication and authorization mechanisms to ensure that prot
 
 Security controls should be applied to API endpoints that handle:
 
-* User information
-* Onboarding information
-* Learning progress
-* Assessments
-* Opportunities
-* Verification information
-* Account settings
-* Administrative operations
+- User information
+- Onboarding information
+- Learning progress
+- Assessments
+- Opportunities
+- Verification information
+- Account settings
+- Administrative operations
 
                     API REQUEST
                         │
@@ -248,12 +248,13 @@ Security controls should be applied to API endpoints that handle:
         Allowed        Denied
             │             │
             ▼             ▼
-    Process API      Reject
-        Request        Access
+
+  Process API Reject
+  Request Access
 
 ---
 
-#  Authorization
+# Authorization
 
 Authentication determines **who the user is**.
 
@@ -263,21 +264,20 @@ VUKA should ensure that users can only access information associated with their 
 
 This is particularly important for resources containing:
 
-* Personal information
-* Learning progress
-* Assessment results
-* Verification information
-* Account information
-* Administrative resources
+- Personal information
+- Learning progress
+- Assessment results
+- Verification information
+- Account information
+- Administrative resources
 
 ### Authorization Principle
-
 
 The backend must verify that the authenticated user has permission to perform the requested operation.
 
 ---
 
-#  Credential Protection
+# Credential Protection
 
 Sensitive credentials must never be exposed through the repository or frontend application.
 
@@ -329,7 +329,7 @@ Production credentials should be managed through secure environment configuratio
 
 ---
 
-#  Secrets That Must Never Be Committed
+# Secrets That Must Never Be Committed
 
 The repository must not contain:
 
@@ -357,7 +357,7 @@ SMTP_PASSWORD=********
 
 ---
 
-#  Input Validation
+# Input Validation
 
 User input must be validated before it is processed by the backend.
 
@@ -365,14 +365,14 @@ Input validation helps ensure that the application receives data in the expected
 
 Validation should be applied to:
 
-* Registration information
-* Login information
-* Onboarding information
-* Assessment responses
-* Opportunity information
-* Verification submissions
-* API parameters
-* Request bodies
+- Registration information
+- Login information
+- Onboarding information
+- Assessment responses
+- Opportunity information
+- Verification submissions
+- API parameters
+- Request bodies
 
 The VUKA backend uses **Pydantic schemas** to define and validate API request and response structures.
 
@@ -394,7 +394,7 @@ The VUKA backend uses **Pydantic schemas** to define and validate API request an
 
 ---
 
-#  Authentication Failure Handling
+# Authentication Failure Handling
 
 Authentication failures should be handled securely.
 
@@ -402,28 +402,28 @@ The application should avoid exposing unnecessary information that could help an
 
 Examples of authentication failures include:
 
-* Invalid credentials
-* Expired tokens
-* Invalid tokens
-* Failed MFA verification
-* Locked accounts
-* Unauthorized API requests
-* Invalid refresh tokens
+- Invalid credentials
+- Expired tokens
+- Invalid tokens
+- Failed MFA verification
+- Locked accounts
+- Unauthorized API requests
+- Invalid refresh tokens
 
 The system should return appropriate responses while avoiding the exposure of sensitive internal information.
 
 ---
 
-#  Login Attempt Tracking
+# Login Attempt Tracking
 
 VUKA tracks authentication activity through login-attempt information.
 
 This supports security mechanisms such as:
 
-* Monitoring failed login attempts
-* Detecting repeated authentication failures
-* Supporting account lockout
-* Providing security audit information
+- Monitoring failed login attempts
+- Detecting repeated authentication failures
+- Supporting account lockout
+- Providing security audit information
 
 Login attempts form part of the broader security architecture.
 
@@ -442,14 +442,14 @@ Login attempts form part of the broader security architecture.
                             ▼
                     Security Controls
                             │
-                    ┌─────┴─────┐
-                    │           │
-                 Continue     Lockout
-                
+                      ┌─────┴─────┐
+                      │           │
+                    Continue     Lockout
+
 
 ---
 
-#  Account Lockout
+# Account Lockout
 
 Account lockout provides an additional defense against repeated unsuccessful authentication attempts.
 
@@ -457,15 +457,15 @@ When authentication failures reach the applicable security threshold, the system
 
 Account lockout works together with:
 
-* Login-attempt tracking
-* Authentication
-* MFA
-* Security event tracking
-* Audit logging
+- Login-attempt tracking
+- Authentication
+- MFA
+- Security event tracking
+- Audit logging
 
 ---
 
-#  Audit Logging
+# Audit Logging
 
 Security-related activity should be recorded through the application's audit mechanisms.
 
@@ -482,7 +482,7 @@ Audit information can provide visibility into important system activities and su
 
 ---
 
-#  Security Architecture
+# Security Architecture
 
 Security is not implemented as a single isolated component.
 
@@ -522,17 +522,11 @@ Instead, it is distributed throughout the VUKA architecture.
                        Audit & Security
                            Events
 
-=======
 <div class="feature-card">
 <img src="../images/security.png" alt="Vuka Home Dashboard" >
-
-
-
 </div>
->>>>>>> 4b87e283949b05cf400d7f83cceb78e7aa357aab
----
 
-#  Core Security Principles
+# Core Security Principles
 
 The VUKA repository should follow the following security principles.
 
@@ -602,7 +596,7 @@ Production credentials should be maintained through secure environment configura
 
 ---
 
-#  Sensitive Information in Browser Logs
+# Sensitive Information in Browser Logs
 
 Sensitive information should not be exposed through frontend browser logs.
 
@@ -620,7 +614,7 @@ Development logging should also be reviewed before production deployment.
 
 ---
 
-#  Production Configuration
+# Production Configuration
 
 Production credentials must be stored using secure environment configuration.
 
@@ -643,7 +637,7 @@ This allows the application to use different configuration values across develop
 
 ---
 
-#  Development & Maintenance
+# Development & Maintenance
 
 Although the VUKA website is **completed and deployed**, the repository should continue to be maintained.
 
@@ -721,27 +715,27 @@ Test affected user journeys and the production build before deployment.
 
 Before deploying a significant change, verify the following:
 
-* [ ] Existing API contracts have been reviewed.
-* [ ] Existing reusable API functions have been checked.
-* [ ] Duplicate API logic has been avoided.
-* [ ] Authentication continues to work.
-* [ ] MFA continues to work.
-* [ ] Authorization remains intact.
-* [ ] AI personalization continues to work.
-* [ ] Mission completion continues to occur automatically.
-* [ ] Sensitive information is not exposed in browser logs.
-* [ ] Production credentials remain protected.
-* [ ] Affected user journeys have been tested.
-* [ ] The production build has been tested.
-* [ ] Documentation has been updated where necessary.
+- [ ] Existing API contracts have been reviewed.
+- [ ] Existing reusable API functions have been checked.
+- [ ] Duplicate API logic has been avoided.
+- [ ] Authentication continues to work.
+- [ ] MFA continues to work.
+- [ ] Authorization remains intact.
+- [ ] AI personalization continues to work.
+- [ ] Mission completion continues to occur automatically.
+- [ ] Sensitive information is not exposed in browser logs.
+- [ ] Production credentials remain protected.
+- [ ] Affected user journeys have been tested.
+- [ ] The production build has been tested.
+- [ ] Documentation has been updated where necessary.
 
 ---
 
-#  Important System Behaviors
+# Important System Behaviors
 
 The following behaviors are fundamental to the operation of VUKA.
 
-## 1.  Personalization Comes From Onboarding
+## 1. Personalization Comes From Onboarding
 
 The user's interests and goals are collected during onboarding and used to personalize the user's experience.
 
@@ -762,22 +756,22 @@ The user's interests and goals are collected during onboarding and used to perso
 
 ---
 
-## 2.  Content Comes From External APIs
+## 2. Content Comes From External APIs
 
 VUKA retrieves potential educational content from external services rather than relying entirely on manually entered content.
 
 External services can include:
 
-* YouTube
-* TikTok
-* Instagram
-* Web search
+- YouTube
+- TikTok
+- Instagram
+- Web search
 
 The backend processes relevant information before presenting it to the frontend.
 
 ---
 
-## 3.  AI Determines Content Relevance
+## 3. AI Determines Content Relevance
 
 **Gemini Flash** is used to support the content personalization process.
 
@@ -801,19 +795,18 @@ The system uses information collected during onboarding and content retrieved th
 
 ---
 
-
-## 4.  Progress Is System-Driven
+## 4. Progress Is System-Driven
 
 The backend records user activity and provides progress information to the frontend.
 
 Progress can include:
 
-* Assessment scores
-* Average performance
-* Learning streaks
-* Weekly activity
-* Category performance
-* Completed assessments
+- Assessment scores
+- Average performance
+- Learning streaks
+- Weekly activity
+- Category performance
+- Completed assessments
 
 The frontend uses this information to present the user's learning progress.
 
@@ -827,8 +820,7 @@ MFA is therefore an important part of the VUKA account protection model.
 
 ---
 
-
-#  Security & System Protection Flow
+# Security & System Protection Flow
 
 The overall security model can be summarized as:
 

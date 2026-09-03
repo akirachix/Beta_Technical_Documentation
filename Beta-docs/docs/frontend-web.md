@@ -54,7 +54,7 @@ Provides information about the user's progress.
 
 <div class="feature-card">
 
-<h3>✨ Personalized Information</h3>
+<h3> Personalized Information</h3>
 
 <p>
 Displays information based on the user's personalized Vuka experience.
