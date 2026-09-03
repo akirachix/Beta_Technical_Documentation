@@ -53,7 +53,6 @@
   </a>
 </div>
 
-
 ---
 
 <div style="text-align: center; font-size: 1.18rem; color: #683929; margin: 2em 0;">
@@ -245,7 +244,6 @@
     discover career paths and continue their education.
   </p>
 </div>
-
 
 
 ---

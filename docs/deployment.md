@@ -399,7 +399,7 @@ The production URLs for the Vuka platform should be documented in one location.
 | Application           | Production URL                                 |
 | --------------------- | ---------------------------------------------- |
 | Informational Website | `https://beta-informational-website.` |
-| Backend API           | `https://vuka-cfc05218f5fb.herokuapp.com/docs`                  |
+| Backend API           | `https://vuka-cfc18f5fb.herokuapp.com/docs`                  |
 
 
 ---
